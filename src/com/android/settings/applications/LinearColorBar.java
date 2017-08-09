@@ -75,7 +75,7 @@ public class LinearColorBar extends LinearLayout {
 
         mLeftColor = context.getResources().getColor(R.color.linear_color_bar_left);
         final boolean mThemeEnabled = Settings.Secure.getInt(context.getContentResolver(),
-                Settings.Secure.THEME_ACCENT_COLOR, 1) != 0;
+                Settings.Secure.THEME_ACCENT_COLOR, 0) != 0;
 
         if (mThemeEnabled) {
             mLeftColor = Utils.getColorAccent(context);
