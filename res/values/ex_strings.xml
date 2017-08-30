@@ -621,5 +621,6 @@
     <string name="cyan">Cyan</string>
     <string name="grey">Grey</string>
     <string name="default_string">Default</string>
-
+    <string name="theme_force_enabled_title">Force enable theme</string>
+    <string name="theme_force_enabled_summary">Theme will be forcibly enabled nonetheless OMS state</string>
 </resources>

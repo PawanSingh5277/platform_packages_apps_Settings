@@ -303,7 +303,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     false, accentColorValue, primaryColorValue) + ", " +
                     PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
                     accentColorValue, primaryColorValue));
-            if (ThemeManager.isOverlayEnabled()) {
+            if (ThemeManager.shouldOverlayEnabled(getContext())) {
                 mThemePreference.setEnabled(false);
                 mThemePreference.setSummary(R.string.oms_enabled);
             }
@@ -494,7 +494,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     false, accentColorValue, primaryColorValue) + ", " +
                     PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
                     accentColorValue, primaryColorValue));
-            if (ThemeManager.isOverlayEnabled()) {
+            if (ThemeManager.shouldOverlayEnabled(getContext())) {
                 mThemePreference.setEnabled(false);
                 mThemePreference.setSummary(R.string.oms_enabled);
             }
@@ -598,7 +598,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     false, accentColorValue, primaryColorValue) + ", " +
                     PreviewSeekBarPreferenceFragment.getInfoText(getContext(), true,
                     accentColorValue, primaryColorValue));
-            if (ThemeManager.isOverlayEnabled()) {
+            if (ThemeManager.shouldOverlayEnabled(getContext())) {
                 mThemePreference.setEnabled(false);
                 mThemePreference.setSummary(R.string.oms_enabled);
             }

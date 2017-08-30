@@ -519,4 +519,27 @@
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Режим «В кармане»</string>
   <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+  <!-- Color engine -->
+  <string name="theme_switch_palette">Переключение между основным и цветом акцента</string>
+  <string name="theme_title">Color Engine</string>
+  <string name="theme_summary">Выберите различные цвета для вашей текущей темы</string>
+  <string name="theme_accent_color">Цвет акцента</string>
+  <string name="theme_primary_color">Основной/цвет фона</string>
+  <string name="theme">Темы</string>
+  <string name="oms_enabled">Режимы тем недоступны, потому что в настоящее время установлена тема Substratum</string>
+  <string name="red">Красный</string>
+  <string name="orange">Янтарь</string>
+  <string name="blue">Синий</string>
+  <string name="green">Зелёный</string>
+  <string name="yellow">Жёлтый</string>
+  <string name="purple">Пурпурный</string>
+  <string name="pink">Розовый</string>
+  <string name="dark">Темная</string>
+  <string name="pixel">Pixel</string>
+  <string name="teal">По умолчанию</string>
+  <string name="cyan">Морская волна</string>
+  <string name="grey">Серая</string>
+  <string name="default_string">По умолчанию</string>
+  <string name="theme_force_enabled_title">Принудительная работа Color Engine</string>
+  <string name="theme_force_enabled_summary">Принудительное применение темы, даже если установлена тема Substratum</string>
 </resources>
