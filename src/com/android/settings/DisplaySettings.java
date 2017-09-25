@@ -292,18 +292,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
             }
             Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
-        mDashboardPortraitColumns = (CustomSeekBarPreference) findPreference(KEY_DASHBOARD_PORTRAIT_COLUMNS);
-        int columnsPortrait = Settings.System.getInt(resolver,
-                Settings.System.DASHBOARD_PORTRAIT_COLUMNS, DashboardSummary.mNumColumns);
-        mDashboardPortraitColumns.setValue(columnsPortrait / 1);
-        mDashboardPortraitColumns.setOnPreferenceChangeListener(this);
-
-        mDashboardLandscapeColumns = (CustomSeekBarPreference) findPreference(KEY_DASHBOARD_LANDSCAPE_COLUMNS);
-        int columnsLandscape = Settings.System.getInt(resolver,
-                Settings.System.DASHBOARD_LANDSCAPE_COLUMNS, 2);
-        mDashboardLandscapeColumns.setValue(columnsLandscape / 1);
-        mDashboardLandscapeColumns.setOnPreferenceChangeListener(this);
-
+	    }
         mThemePreference = (ThemePreference) findPreference(KEY_THEME);
         if (mThemePreference != null) {
             final int accentColorValue = Settings.Secure.getInt(getContext().getContentResolver(),
